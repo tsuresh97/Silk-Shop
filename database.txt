@@ -1,0 +1,35 @@
+-- phpMyAdmin SQL Dump
+-- version 2.8.1
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Oct 20, 2018 at 03:17 PM
+-- Server version: 5.5.27
+-- PHP Version: 5.1.4
+-- 
+-- Database: `purchase5`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `purchase6`
+-- 
+
+CREATE TABLE `purchase6` (
+  `counter` decimal(18,0) DEFAULT NULL,
+  `proid` decimal(18,0) DEFAULT NULL,
+  `proname` varchar(50) DEFAULT NULL,
+  `quantity` decimal(18,0) DEFAULT NULL,
+  `rate` decimal(18,0) DEFAULT NULL,
+  `vat` decimal(18,0) DEFAULT NULL,
+  `profit` decimal(18,0) DEFAULT NULL,
+  `total` decimal(18,0) DEFAULT NULL,
+  `date` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `purchase6`
+-- 
+
+INSERT INTO `purchase6` VALUES ('1', '10001', 'S', '20', '10', '0', '0', '200', '0.0005');
